@@ -125,15 +125,15 @@ const BeforeAfter = ({ transformation }) => {
       </div>
 
       <Card.Body>
-        <Card.Title className="transformation-title">
+        {/* <Card.Title className="transformation-title">
           {language === 'hi' && transformation.title_hi ? transformation.title_hi : transformation.title}
         </Card.Title>
         
         <Card.Text className="transformation-description text-muted">
           {language === 'hi' && transformation.description_hi ? transformation.description_hi : transformation.description}
-        </Card.Text>
+        </Card.Text> */}
 
-        <div className="transformation-meta">
+        {/* <div className="transformation-meta">
           <div className="meta-item">
             <i className="bi bi-calendar3 text-success me-2"></i>
             <small className="text-muted">{transformation.year}</small>
@@ -155,7 +155,7 @@ const BeforeAfter = ({ transformation }) => {
               <small>{language === 'hi' && transformation.impact_hi ? transformation.impact_hi : transformation.impact}</small>
             </p>
           </div>
-        )}
+        )} */}
       </Card.Body>
       {/* Image Modal */}
       <Modal show={showModal} onHide={closeModal} centered size="lg">
