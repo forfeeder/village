@@ -36,6 +36,14 @@ const Home = () => {
       link: '/gallery',
       color: '#FF6F00'
     }
+    ,
+    {
+      icon: 'bi-arrow-left-right',
+      title: t('home.quickLinks.beforeAfter.title'),
+      description: t('home.quickLinks.beforeAfter.description'),
+      link: '/before-after',
+      color: '#17a2b8'
+    }
   ];
 
   const highlights = [
@@ -130,10 +138,10 @@ const Home = () => {
           <div className="text-center mb-5">
             <div className="section-badge mb-3">
               <i className="bi bi-compass-fill me-2"></i>
-              Quick Access
+              {t('home.highlightsBadge')}
             </div>
-            <h2 className="section-title">Explore Our Platform</h2>
-            <p className="text-muted">Navigate through different sections to discover more</p>
+            <h2 className="section-title">{t('home.highlightsTitle')}</h2>
+            <p className="text-muted">{t('home.highlightsSubtitle')}</p>
           </div>
 
           <Row className="g-4">

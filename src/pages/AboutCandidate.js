@@ -6,61 +6,11 @@ import './AboutCandidate.css';
 
 const AboutCandidate = () => {
   const { t } = useLanguage();
-  const qualifications = [
-    'Bachelor of Arts (Political Science) - University',
-    'Master in Public Administration - State University',
-    'Diploma in Rural Development - National Institute',
-    'Certificate in Digital Governance - IIM'
-  ];
-
-  const experience = [
-    { year: '2015-2020', role: 'Gram Panchayat Member', org: 'Village Council' },
-    { year: '2018-2020', role: 'Block Development Committee', org: 'District Administration' },
-    { year: '2020-Present', role: 'Social Worker', org: 'NGO for Rural Development' },
-    { year: '2021-Present', role: 'Youth Coordinator', org: 'State Youth Forum' }
-  ];
-
-  const achievements = [
-    'Successfully implemented digital literacy program in 10 villages',
-    'Led campaign for 100% household toilet coverage',
-    'Initiated women empowerment projects benefiting 500+ women',
-    'Established skill development center training 300+ youth',
-    'Brought government funding of ₹2 Crore for village projects',
-    'Received Best Village Leader Award 2022'
-  ];
-
-  const visionPoints = [
-    {
-      title: 'Complete Infrastructure Development',
-      icon: 'bi-building',
-      description: 'Paved roads, street lights, drainage, and clean water for all'
-    },
-    {
-      title: 'Digital Village Initiative',
-      icon: 'bi-laptop',
-      description: 'Internet connectivity, digital education, and online services'
-    },
-    {
-      title: 'Healthcare for All',
-      icon: 'bi-hospital',
-      description: '24/7 health center, regular camps, and telemedicine facility'
-    },
-    {
-      title: 'Education Excellence',
-      icon: 'bi-mortarboard',
-      description: 'Quality education, scholarships, and skill development'
-    },
-    {
-      title: 'Economic Empowerment',
-      icon: 'bi-currency-rupee',
-      description: 'Employment opportunities, entrepreneurship support, and market linkages'
-    },
-    {
-      title: 'Environmental Sustainability',
-      icon: 'bi-tree',
-      description: 'Clean village, waste management, renewable energy, and green spaces'
-    }
-  ];
+  // Load lists from translations so content is bilingual
+  const qualifications = t('aboutCandidate.qualifications') || [];
+  const experience = t('aboutCandidate.experience') || [];
+  const achievements = t('aboutCandidate.achievements') || [];
+  const visionPoints = t('aboutCandidate.visionPoints') || [];
 
   return (
     <div className="about-candidate-page">
