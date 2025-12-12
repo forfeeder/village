@@ -6,6 +6,7 @@ import './App.css';
 
 // Components
 import Navbar from './components/Navbar/Navbar';
+import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 import Footer from './components/Footer/Footer';
 
 // Pages
@@ -40,6 +41,7 @@ function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <div className="App" data-bs-theme={theme}>
         <Navbar theme={theme} toggleTheme={toggleTheme} />
         <main className="main-content">
