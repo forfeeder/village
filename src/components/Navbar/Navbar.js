@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Container, Nav, Navbar as BSNavbar } from 'react-bootstrap';
 import { useLanguage } from '../../context/LanguageContext';
@@ -6,9 +6,17 @@ import './Navbar.css';
 
 const Navbar = ({ theme, toggleTheme }) => {
   const { language, toggleLanguage, t } = useLanguage();
+  const [expanded, setExpanded] = useState(false);
 
   return (
-    <BSNavbar bg={theme} variant={theme} expand="lg" className="navbar-custom sticky-top shadow-sm">
+    <BSNavbar
+      bg={theme}
+      variant={theme}
+      expand="lg"
+      className="navbar-custom sticky-top shadow-sm"
+      expanded={expanded}
+      onToggle={(next) => setExpanded(next)}
+    >
       <Container>
         <BSNavbar.Brand as={Link} to="/" className="d-flex align-items-center">
           <i className="bi bi-house-heart-fill me-2 fs-4"></i>
@@ -21,54 +29,54 @@ const Navbar = ({ theme, toggleTheme }) => {
         
         <BSNavbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto align-items-lg-center">
-            <Nav.Link as={NavLink} to="/" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-house-door me-1"></i>
               {t('navbar.home')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/plans" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/plans" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-clipboard-check me-1"></i>
               {t('navbar.plans')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/skilled-villagers" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/skilled-villagers" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-people me-1"></i>
               {t('navbar.skilledVillagers')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/schemes" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/schemes" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-award me-1"></i>
               {t('navbar.schemes')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/gallery" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/gallery" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-images me-1"></i>
               {t('navbar.gallery')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/before-after" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/before-after" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-arrow-left-right me-1"></i>
               {t('navbar.beforeAfter')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/about-village" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/about-village" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-info-circle me-1"></i>
               {t('navbar.aboutVillage')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/about-candidate" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/about-candidate" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-person-badge me-1"></i>
               {t('navbar.candidate')}
             </Nav.Link>
             
-            <Nav.Link as={NavLink} to="/contact" className="nav-link-custom">
+            <Nav.Link as={NavLink} to="/contact" className="nav-link-custom" onClick={() => setExpanded(false)}>
               <i className="bi bi-envelope me-1"></i>
               {t('navbar.contact')}
             </Nav.Link>
             
             <button 
               className="btn btn-outline-primary btn-sm ms-lg-2 mt-2 mt-lg-0 me-2"
-              onClick={toggleLanguage}
+              onClick={() => { toggleLanguage(); setExpanded(false); }}
               aria-label="Toggle language"
               title={language === 'en' ? 'हिंदी में बदलें' : 'Switch to English'}
             >
@@ -78,7 +86,7 @@ const Navbar = ({ theme, toggleTheme }) => {
 
             <button 
               className="btn btn-outline-secondary btn-sm ms-lg-1 mt-2 mt-lg-0"
-              onClick={toggleTheme}
+              onClick={() => { toggleTheme(); setExpanded(false); }}
               aria-label="Toggle theme"
             >
               <i className={`bi bi-${theme === 'light' ? 'moon-stars-fill' : 'sun-fill'}`}></i>
