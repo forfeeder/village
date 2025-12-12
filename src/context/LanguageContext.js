@@ -15,7 +15,8 @@ export const useLanguage = () => {
 export const LanguageProvider = ({ children }) => {
   const [language, setLanguage] = useState(() => {
     const savedLanguage = localStorage.getItem('language');
-    return savedLanguage || 'en';
+    // Default to Hindi when no saved preference exists
+    return savedLanguage || 'hi';
   });
 
   const translations = {
