@@ -12,7 +12,7 @@
     "progress": 35,
     "budget": "₹50 Lakhs",
     "budget_hi": "₹50 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "Better connectivity to nearby towns",
       "Reduced travel time by 40%",
@@ -37,7 +37,7 @@
     "progress": 60,
     "budget": "₹35 Lakhs",
     "budget_hi": "₹35 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "Safe drinking water for all households",
       "100% toilet coverage",
@@ -62,7 +62,7 @@
     "progress": 80,
     "budget": "₹20 Lakhs",
     "budget_hi": "₹20 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "Digital literacy for 500+ villagers",
       "Access to online education",
@@ -87,7 +87,7 @@
     "progress": 45,
     "budget": "₹40 Lakhs",
     "budget_hi": "₹40 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "24/7 medical services",
       "Specialist consultation via telemedicine",
@@ -160,7 +160,7 @@
     "progress": 70,
     "budget": "₹15 Lakhs/year",
     "budget_hi": "₹15 लाख/वर्ष",
-    "status": "Active",
+    "status": "Planning",
     "benefits": [
       "Zero plastic village",
       "100% waste segregation",
@@ -185,7 +185,7 @@
     "progress": 40,
     "budget": "₹45 Lakhs",
     "budget_hi": "₹45 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "Increase crop yield by 35%",
       "Reduce water usage by 50%",
@@ -210,7 +210,7 @@
     "progress": 55,
     "budget": "₹18 Lakhs",
     "budget_hi": "₹18 लाख",
-    "status": "In Progress",
+    "status": "Planning",
     "benefits": [
       "Economic independence for women",
       "Self-help groups formed"
