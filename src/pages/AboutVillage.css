@@ -1,0 +1,137 @@
+.about-village-page {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section-badge {
+  display: inline-block;
+  background-color: rgba(46, 125, 50, 0.1);
+  color: var(--bs-success);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-dark);
+}
+
+/* Demographics Cards */
+.demo-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.demo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.demo-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--bs-success) 0%, var(--bs-primary) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.demo-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-success);
+  margin: 1rem 0 0.5rem 0;
+}
+
+.demo-label {
+  font-size: 1rem;
+  color: var(--bs-secondary);
+  margin: 0;
+}
+
+/* Facility Cards */
+.facility-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.facility-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.facility-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background-color: rgba(46, 125, 50, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--bs-success);
+  font-size: 2rem;
+}
+
+.facility-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+}
+
+/* Festival Cards */
+.festival-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--bs-success);
+}
+
+.festival-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.festival-icon {
+  font-size: 2rem;
+  color: var(--bs-success);
+}
+
+.festival-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .demo-value {
+    font-size: 2rem;
+  }
+  
+  .demo-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}

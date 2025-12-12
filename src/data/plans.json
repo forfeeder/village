@@ -1,0 +1,248 @@
+[
+  {
+    "id": 1,
+    "title": "Road Infrastructure Development",
+    "title_hi": "सड़क बुनियादी ढांचा विकास",
+    "icon": "🛣️",
+    "category": "infrastructure",
+    "description": "Paving all village roads with concrete, installing street lights, and creating proper drainage systems to ensure all-weather connectivity.",
+    "description_hi": "सभी गांव की सड़कों को कंक्रीट से बनाना, स्ट्रीट लाइट लगाना और उचित जल निकासी प्रणाली बनाकर सभी मौसम में कनेक्टिविटी सुनिश्चित करना।",
+    "timeline": "12 months",
+    "timeline_hi": "12 महीने",
+    "progress": 35,
+    "budget": "₹50 Lakhs",
+    "budget_hi": "₹50 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "Better connectivity to nearby towns",
+      "Reduced travel time by 40%",
+      "Access for ambulances and emergency vehicles"
+    ],
+    "benefits_hi": [
+      "नजदीकी शहरों से बेहतर कनेक्टिविटी",
+      "यात्रा समय में 40% की कमी",
+      "एम्बुलेंस और आपातकालीन वाहनों के लिए पहुंच"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Clean Water & Sanitation",
+    "title_hi": "स्वच्छ जल और स्वच्छता",
+    "icon": "💧",
+    "category": "water",
+    "description": "Install water purification plants, build toilets in every household, and establish waste management system with recycling facility.",
+    "description_hi": "जल शुद्धिकरण संयंत्र स्थापित करना, हर घर में शौचालय बनाना और पुनर्चक्रण सुविधा के साथ अपशिष्ट प्रबंधन प्रणाली स्थापित करना।",
+    "timeline": "18 months",
+    "timeline_hi": "18 महीने",
+    "progress": 60,
+    "budget": "₹35 Lakhs",
+    "budget_hi": "₹35 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "Safe drinking water for all households",
+      "100% toilet coverage",
+      "Reduced waterborne diseases by 80%"
+    ],
+    "benefits_hi": [
+      "सभी घरों के लिए सुरक्षित पेयजल",
+      "100% शौचालय कवरेज",
+      "जलजनित रोगों में 80% की कमी"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Digital Education Center",
+    "title_hi": "डिजिटल शिक्षा केंद्र",
+    "icon": "💻",
+    "category": "education",
+    "description": "Set up computer lab with internet, smart classrooms, online learning platforms, and digital library for students and adults.",
+    "description_hi": "इंटरनेट के साथ कंप्यूटर लैब, स्मार्ट कक्षाएं, ऑनलाइन शिक्षण प्लेटफॉर्म और छात्रों और वयस्कों के लिए डिजिटल लाइब्रेरी स्थापित करना।",
+    "timeline": "6 months",
+    "timeline_hi": "6 महीने",
+    "progress": 80,
+    "budget": "₹20 Lakhs",
+    "budget_hi": "₹20 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "Digital literacy for 500+ villagers",
+      "Access to online education",
+      "Bridge urban-rural education gap"
+    ],
+    "benefits_hi": [
+      "500+ ग्रामीणों के लिए डिजिटल साक्षरता",
+      "ऑनलाइन शिक्षा तक पहुंच",
+      "शहरी-ग्रामीण शिक्षा अंतर को पाटना"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Healthcare Upgradation",
+    "title_hi": "स्वास्थ्य सेवा उन्नयन",
+    "icon": "🏥",
+    "category": "healthcare",
+    "description": "Upgrade primary health center with modern equipment, 24/7 ambulance service, telemedicine facility, and regular health camps.",
+    "description_hi": "आधुनिक उपकरणों, 24/7 एम्बुलेंस सेवा, टेलीमेडिसिन सुविधा और नियमित स्वास्थ्य शिविरों के साथ प्राथमिक स्वास्थ्य केंद्र को अपग्रेड करना।",
+    "timeline": "9 months",
+    "timeline_hi": "9 महीने",
+    "progress": 45,
+    "budget": "₹40 Lakhs",
+    "budget_hi": "₹40 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "24/7 medical services",
+      "Specialist consultation via telemedicine",
+      "Monthly health check-up camps"
+    ],
+    "benefits_hi": [
+      "24/7 चिकित्सा सेवाएं",
+      "टेलीमेडिसिन के माध्यम से विशेषज्ञ परामर्श",
+      "मासिक स्वास्थ्य जांच शिविर"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Skill Development & Employment",
+    "title_hi": "कौशल विकास और रोजगार",
+    "icon": "👷",
+    "category": "employment",
+    "description": "Establish vocational training center for youth in tailoring, computer skills, agriculture technology, and small business management.",
+    "description_hi": "युवाओं के लिए सिलाई, कंप्यूटर कौशल, कृषि प्रौद्योगिकी और लघु व्यवसाय प्रबंधन में व्यावसायिक प्रशिक्षण केंद्र स्थापित करना।",
+    "timeline": "12 months",
+    "timeline_hi": "12 महीने",
+    "progress": 25,
+    "budget": "₹25 Lakhs",
+    "budget_hi": "₹25 लाख",
+    "status": "Planning",
+    "benefits": [
+      "Train 100+ youth annually",
+      "Promote entrepreneurship"
+    ],
+    "benefits_hi": [
+      "प्रतिवर्ष 100+ युवाओं को प्रशिक्षण",
+      "उद्यमिता को बढ़ावा"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Renewable Energy Initiative",
+    "title_hi": "नवीकरणीय ऊर्जा पहल",
+    "icon": "☀️",
+    "category": "energy",
+    "description": "Install solar panels on public buildings, promote solar pumps for agriculture, and set up biogas plants for clean cooking fuel.",
+    "description_hi": "सार्वजनिक भवनों पर सौर पैनल स्थापित करना, कृषि के लिए सौर पंपों को बढ़ावा देना और स्वच्छ खाना पकाने के ईंधन के लिए बायोगैस संयंत्र स्थापित करना।",
+    "timeline": "24 months",
+    "timeline_hi": "24 महीने",
+    "progress": 15,
+    "budget": "₹60 Lakhs",
+    "budget_hi": "₹60 लाख",
+    "status": "Planning",
+    "benefits": [
+      "Reduce electricity costs by 50%",
+      "Clean energy for 200 households",
+      "Environmental sustainability"
+    ],
+    "benefits_hi": [
+      "बिजली की लागत में 50% की कमी",
+      "परिवारों के लिए स्वच्छ ऊर्जा",
+      "पर्यावरणीय स्थिरता"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Swachh Gaon Abhiyan",
+    "title_hi": "स्वच्छ गांव अभियान",
+    "icon": "♻️",
+    "category": "cleanliness",
+    "description": "Daily garbage collection, segregation at source, composting unit, plastic ban enforcement, and monthly cleanliness drives.",
+    "description_hi": "दैनिक कचरा संग्रहण, स्रोत पर पृथक्करण, कम्पोस्टिंग यूनिट, प्लास्टिक प्रतिबंध और मासिक स्वच्छता अभियान।",
+    "timeline": "Ongoing",
+    "timeline_hi": "जारी",
+    "progress": 70,
+    "budget": "₹15 Lakhs/year",
+    "budget_hi": "₹15 लाख/वर्ष",
+    "status": "Active",
+    "benefits": [
+      "Zero plastic village",
+      "100% waste segregation",
+      "Organic compost production"
+    ],
+    "benefits_hi": [
+      "शून्य प्लास्टिक गांव",
+      "100% अपशिष्ट पृथक्करण",
+      "जैविक खाद उत्पादन"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Agricultural Modernization",
+    "title_hi": "कृषि आधुनिकीकरण",
+    "icon": "🌾",
+    "category": "agriculture",
+    "description": "Introduce drip irrigation, organic farming techniques, cold storage facility, and direct market linkage for farmers.",
+    "description_hi": "ड्रिप सिंचाई, जैविक खेती तकनीक, कोल्ड स्टोरेज सुविधा और किसानों के लिए सीधे बाजार लिंकेज शुरू करना।",
+    "timeline": "18 months",
+    "timeline_hi": "18 महीने",
+    "progress": 40,
+    "budget": "₹45 Lakhs",
+    "budget_hi": "₹45 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "Increase crop yield by 35%",
+      "Reduce water usage by 50%",
+      "Better prices for farmers"
+    ],
+    "benefits_hi": [
+      "फसल उपज में 35% की वृद्धि",
+      "पानी के उपयोग में 50% की कमी",
+      "किसानों के लिए बेहतर कीमतें"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Women Empowerment Center",
+    "title_hi": "महिला सशक्तिकरण केंद्र",
+    "icon": "👩",
+    "category": "social",
+    "description": "Create self-help groups, provide skill training, microfinance support, and platform for women entrepreneurs.",
+    "description_hi": "स्वयं सहायता समूह बनाना, कौशल प्रशिक्षण प्रदान करना, सूक्ष्म वित्त सहायता और महिला उद्यमियों के लिए मंच।",
+    "timeline": "12 months",
+    "timeline_hi": "12 महीने",
+    "progress": 55,
+    "budget": "₹18 Lakhs",
+    "budget_hi": "₹18 लाख",
+    "status": "In Progress",
+    "benefits": [
+      "Economic independence for women",
+      "Self-help groups formed"
+    ],
+    "benefits_hi": [
+      "महिलाओं के लिए आर्थिक स्वतंत्रता",
+      "स्वयं सहायता समूह गठित"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Sports & Recreation Complex",
+    "title_hi": "खेल और मनोरंजन परिसर",
+    "icon": "⚽",
+    "category": "sports",
+    "description": "Build multi-purpose sports ground, gymnasium, yoga center, and children's playground with modern equipment.",
+    "description_hi": "आधुनिक उपकरणों के साथ बहुउद्देशीय खेल मैदान, व्यायामशाला, योग केंद्र और बच्चों का खेल का मैदान बनाना।",
+    "timeline": "15 months",
+    "timeline_hi": "15 महीने",
+    "progress": 20,
+    "budget": "₹30 Lakhs",
+    "budget_hi": "₹30 लाख",
+    "status": "Planning",
+    "benefits": [
+      "Promote physical fitness",
+      "Talent identification in sports",
+      "Recreation for all age groups"
+    ],
+    "benefits_hi": [
+      "शारीरिक फिटनेस को बढ़ावा",
+      "खेल में प्रतिभा पहचान",
+      "सभी आयु वर्ग के लिए मनोरंजन"
+    ]
+  }
+]

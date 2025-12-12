@@ -1,0 +1,234 @@
+.about-candidate-page {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section-badge {
+  display: inline-block;
+  background-color: rgba(46, 125, 50, 0.1);
+  color: var(--bs-success);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-dark);
+}
+
+/* Candidate Photo */
+.candidate-photo-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.candidate-photo {
+  border-radius: 12px;
+  border: 5px solid var(--bs-success);
+}
+
+.candidate-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-dark);
+}
+
+.candidate-tagline {
+  font-size: 1.25rem;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.contact-details {
+  padding: 1.5rem;
+  background-color: rgba(46, 125, 50, 0.05);
+  border-radius: 8px;
+  border-left: 4px solid var(--bs-success);
+}
+
+/* Info Cards */
+.info-card {
+  border: none;
+  border-radius: 12px;
+}
+
+.card-header-custom {
+  display: flex;
+  align-items: center;
+  color: var(--bs-success);
+  border-bottom: 2px solid var(--bs-success);
+  padding-bottom: 1rem;
+}
+
+.card-header-custom h4 {
+  margin: 0;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-list li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e9ecef;
+  line-height: 1.6;
+}
+
+.custom-list li:last-child {
+  border-bottom: none;
+}
+
+/* Experience Timeline */
+.experience-timeline {
+  position: relative;
+  padding-left: 2rem;
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.timeline-item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline-badge {
+  position: absolute;
+  left: -2rem;
+  top: 0;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: var(--bs-success);
+  border: 3px solid white;
+  box-shadow: 0 0 0 2px var(--bs-success);
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1.55rem;
+  top: 12px;
+  bottom: -12px;
+  width: 2px;
+  background-color: var(--bs-success);
+}
+
+.timeline-item:last-child::before {
+  display: none;
+}
+
+.timeline-year {
+  display: inline-block;
+  background-color: var(--bs-success);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.timeline-role {
+  font-weight: 600;
+  color: var(--bs-dark);
+  margin: 0.5rem 0 0.25rem 0;
+}
+
+.timeline-org {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+/* Achievements Card */
+.achievements-card {
+  border: none;
+  border-radius: 12px;
+}
+
+.achievements-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.achievements-list li {
+  padding: 1rem 0;
+  border-bottom: 1px solid #e9ecef;
+  line-height: 1.6;
+  font-size: 1.05rem;
+}
+
+.achievements-list li:last-child {
+  border-bottom: none;
+}
+
+/* Vision Cards */
+.vision-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.vision-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.vision-icon {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+  background: linear-gradient(135deg, var(--bs-success) 0%, var(--bs-primary) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.vision-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+  margin: 1rem 0;
+}
+
+/* Message Card */
+.message-card {
+  border: none;
+  border-radius: 12px;
+  background: linear-gradient(135deg, rgba(46, 125, 50, 0.05) 0%, rgba(21, 101, 192, 0.05) 100%);
+}
+
+@media (max-width: 768px) {
+  .section-title,
+  .candidate-name {
+    font-size: 2rem;
+  }
+  
+  .candidate-tagline {
+    font-size: 1.1rem;
+  }
+  
+  .vision-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}

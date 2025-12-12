@@ -1,0 +1,141 @@
+.home-page {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.section-badge {
+  display: inline-block;
+  background-color: rgba(46, 125, 50, 0.1);
+  color: var(--bs-success);
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-dark);
+}
+
+.intro-section img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.intro-section img:hover {
+  transform: scale(1.02);
+}
+
+/* Highlights Section */
+.highlight-card {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.highlight-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.highlight-icon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  background: linear-gradient(135deg, var(--bs-success) 0%, var(--bs-primary) 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+}
+
+.highlight-value {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--bs-success);
+  margin-bottom: 0.5rem;
+}
+
+.highlight-label {
+  font-size: 1rem;
+  color: var(--bs-secondary);
+  margin: 0;
+}
+
+/* Quick Links Section */
+.quick-link-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.quick-link-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.quick-link-icon {
+  font-size: 3rem;
+  transition: transform 0.3s ease;
+}
+
+.quick-link-card:hover .quick-link-icon {
+  transform: scale(1.1);
+}
+
+.quick-link-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+  margin-bottom: 1rem;
+}
+
+.quick-link-arrow {
+  font-size: 1.5rem;
+  color: var(--bs-success);
+  opacity: 0;
+  transform: translateX(-10px);
+  transition: all 0.3s ease;
+}
+
+.quick-link-card:hover .quick-link-arrow {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #2E7D32 0%, #1565C0 100%);
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .highlight-value {
+    font-size: 2rem;
+  }
+  
+  .highlight-icon {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+}

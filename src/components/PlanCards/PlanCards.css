@@ -1,0 +1,91 @@
+.plan-card {
+  border: none;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.plan-icon {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+.status-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+.plan-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+  margin-bottom: 1rem;
+}
+
+.plan-description {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.plan-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+}
+
+.progress-section {
+  margin-top: 1rem;
+}
+
+.custom-progress {
+  height: 8px;
+  border-radius: 10px;
+}
+
+.benefits-section {
+  border-top: 1px solid #e9ecef;
+  padding-top: 1rem;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+}
+
+.benefits-list li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  line-height: 1.4;
+}
+
+.benefits-list i {
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+@media (max-width: 768px) {
+  .plan-icon {
+    font-size: 2.5rem;
+  }
+  
+  .plan-title {
+    font-size: 1.1rem;
+  }
+}

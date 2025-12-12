@@ -1,0 +1,150 @@
+.before-after-card {
+  border: none;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.before-after-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15) !important;
+}
+
+.comparison-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16/9;
+  overflow: hidden;
+  cursor: ew-resize;
+  user-select: none;
+}
+
+.image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.before-container {
+  z-index: 2;
+}
+
+.comparison-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.image-label {
+  position: absolute;
+  top: 15px;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  z-index: 3;
+}
+
+.image-label-left {
+  left: 15px;
+}
+
+.image-label-right {
+  right: 15px;
+}
+
+.slider-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background-color: white;
+  z-index: 10;
+  transform: translateX(-50%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.slider-handle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: ew-resize;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.slider-handle:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+}
+
+.slider-handle i {
+  font-size: 1rem;
+  color: var(--bs-success);
+}
+
+.slider-handle i:first-child {
+  margin-right: -4px;
+}
+
+.slider-handle i:last-child {
+  margin-left: -4px;
+}
+
+.transformation-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--bs-dark);
+  margin-bottom: 0.75rem;
+}
+
+.transformation-description {
+  line-height: 1.6;
+  font-size: 0.95rem;
+}
+
+.transformation-meta {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  border-top: 1px solid #e9ecef;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.meta-item {
+  display: flex;
+  align-items: center;
+}
+
+.impact-section {
+  border-left: 3px solid var(--bs-success);
+}
+
+@media (max-width: 768px) {
+  .slider-handle {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .slider-handle i {
+    font-size: 0.85rem;
+  }
+  
+  .image-label {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+  
+  .transformation-title {
+    font-size: 1.1rem;
+  }
+}

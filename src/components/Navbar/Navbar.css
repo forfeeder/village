@@ -1,0 +1,42 @@
+.navbar-custom {
+  transition: all 0.3s ease;
+}
+
+.brand-text {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--bs-success);
+}
+
+.nav-link-custom {
+  font-weight: 500;
+  padding: 0.5rem 1rem !important;
+  transition: all 0.3s ease;
+  border-radius: 0.25rem;
+  margin: 0.25rem;
+}
+
+.nav-link-custom:hover {
+  background-color: rgba(46, 125, 50, 0.1);
+  transform: translateY(-2px);
+}
+
+.nav-link-custom.active {
+  color: var(--bs-success) !important;
+  font-weight: 600;
+  background-color: rgba(46, 125, 50, 0.1);
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+@media (max-width: 991px) {
+  .nav-link-custom {
+    text-align: left;
+  }
+}

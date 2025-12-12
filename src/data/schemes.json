@@ -1,0 +1,322 @@
+[
+  {
+    "id": 1,
+    "title": "PM Awas Yojana (Gramin)",
+    "title_hi": "पीएम आवास योजना (ग्रामीण)",
+    "icon": "🏠",
+    "category": "housing",
+    "description": "Provides financial assistance to construct pucca houses for eligible rural families living in kutcha houses.",
+    "description_hi": "कच्चे घरों में रहने वाले पात्र ग्रामीण परिवारों को पक्के घर बनाने के लिए वित्तीय सहायता प्रदान करती है।",
+    "amount": "₹1.20 Lakhs (Plain areas) / ₹1.30 Lakhs (Hilly areas)",
+    "amount_hi": "₹1.20 लाख (मैदानी क्षेत्र) / ₹1.30 लाख (पहाड़ी क्षेत्र)",
+    "eligibility": [
+      "Families living in kutcha houses",
+      "Landless or land owner",
+      "No family member should own pucca house",
+      "SC/ST/Minorities/Women preferred"
+    ],
+    "eligibility_hi": [
+      "कच्चे घरों में रहने वाले परिवार",
+      "भूमिहीन या भूमि स्वामी",
+      "परिवार के किसी सदस्य के पास पक्का घर नहीं होना चाहिए",
+      "SC/ST/अल्पसंख्यक/महिलाओं को प्राथमिकता"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account details",
+      "Income Certificate",
+      "Residence Proof",
+      "BPL Card (if applicable)"
+    ],
+    "documents_hi": [
+      "आधार कार्ड",
+      "बैंक खाता विवरण",
+      "आय प्रमाण पत्र",
+      "निवास प्रमाण",
+      "बीपीएल कार्ड (यदि लागू हो)"
+    ],
+    "howToApply": [
+      "Visit nearest Gram Panchayat office",
+      "Fill PMAY-G application form",
+      "Submit required documents",
+      "Gram Sabha verification",
+      "Approval and sanction within 30 days"
+    ],
+    "howToApply_hi": [
+      "निकटतम ग्राम पंचायत कार्यालय जाएं",
+      "PMAY-G आवेदन पत्र भरें",
+      "आवश्यक दस्तावेज जमा करें",
+      "ग्राम सभा सत्यापन",
+      "30 दिनों के भीतर स्वीकृति और मंजूरी"
+    ],
+    "contact": "1800-11-6446 (Toll-free)"
+  },
+  {
+    "id": 2,
+    "title": "PM Kisan Samman Nidhi",
+    "icon": "🌾",
+    "category": "agriculture",
+    "description": "Direct income support of ₹6,000 per year to farmer families in three equal installments of ₹2,000 each.",
+    "amount": "₹6,000 per year (₹2,000 x 3 installments)",
+    "eligibility": [
+      "All land-holding farmer families",
+      "Name in land records",
+      "Both small and marginal farmers",
+      "No income limit"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Account with Aadhaar link",
+      "Land ownership documents",
+      "Mobile number"
+    ],
+    "howToApply": [
+      "Visit https://pmkisan.gov.in",
+      "Click on 'Farmer Corner' → 'New Farmer Registration'",
+      "Enter Aadhaar number and mobile",
+      "Fill registration form",
+      "Submit land details",
+      "Or visit Common Service Center (CSC)"
+    ],
+    "contact": "PM-Kisan Helpline: 155261 / 011-24300606"
+  },
+  {
+    "id": 3,
+    "title": "Old Age Pension Scheme",
+    "icon": "👴",
+    "category": "pension",
+    "description": "Monthly pension for elderly citizens above 60 years from economically weaker sections.",
+    "amount": "₹500-₹1,500 per month (varies by state)",
+    "eligibility": [
+      "Age 60 years and above",
+      "Below Poverty Line (BPL)",
+      "Little or no regular income",
+      "Not receiving any other pension"
+    ],
+    "documents": [
+      "Age proof (Birth certificate/Aadhaar)",
+      "BPL Card",
+      "Income Certificate",
+      "Bank Account details",
+      "Passport size photos"
+    ],
+    "howToApply": [
+      "Visit Gram Panchayat/Block office",
+      "Collect application form",
+      "Fill form with required details",
+      "Attach documents and submit",
+      "Pension starts within 2-3 months"
+    ],
+    "contact": "District Social Welfare Office"
+  },
+  {
+    "id": 4,
+    "title": "Widow Pension Scheme",
+    "icon": "👩",
+    "category": "pension",
+    "description": "Financial assistance to widows from economically weaker sections for their livelihood.",
+    "amount": "₹500-₹1,000 per month (varies by state)",
+    "eligibility": [
+      "Widow woman aged 18-60 years",
+      "Below Poverty Line (BPL)",
+      "Annual income less than ₹2 Lakhs",
+      "Not receiving any other pension"
+    ],
+    "documents": [
+      "Husband's death certificate",
+      "Age proof",
+      "Income Certificate",
+      "BPL Card",
+      "Bank Account details",
+      "Aadhaar Card"
+    ],
+    "howToApply": [
+      "Visit Gram Panchayat/Block office",
+      "Get application form",
+      "Fill with widow details",
+      "Submit with death certificate",
+      "Approval within 30-60 days"
+    ],
+    "contact": "District Social Welfare Office"
+  },
+  {
+    "id": 5,
+    "title": "MGNREGA (Rural Employment)",
+    "icon": "👷",
+    "category": "employment",
+    "description": "Guaranteed 100 days of wage employment per year to rural households willing to do unskilled manual work.",
+    "amount": "₹209-₹310 per day (varies by state)",
+    "eligibility": [
+      "Adult members of rural households",
+      "Willing to do unskilled manual work",
+      "Must register for job card",
+      "No qualification required"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Residence Proof",
+      "Bank Account details",
+      "Passport size photo",
+      "Ration Card"
+    ],
+    "howToApply": [
+      "Visit Gram Panchayat office",
+      "Request job card application",
+      "Fill form with family details",
+      "Submit with documents",
+      "Get job card within 15 days",
+      "Apply for work as needed"
+    ],
+    "contact": "1800-345-22-44 (MGNREGA Helpline)"
+  },
+  {
+    "id": 6,
+    "title": "Pre & Post Matric Scholarships",
+    "icon": "🎓",
+    "category": "education",
+    "description": "Financial assistance to SC/ST/OBC/Minority students for education from Class 1 to Post Graduation.",
+    "amount": "₹1,000-₹12,000 per year (based on class)",
+    "eligibility": [
+      "Students from SC/ST/OBC/Minority communities",
+      "Family income less than ₹2.5 Lakhs/year",
+      "Regular attendance (75% minimum)",
+      "Pass previous class"
+    ],
+    "documents": [
+      "Caste Certificate",
+      "Income Certificate",
+      "Previous year marksheet",
+      "School/College bonafide certificate",
+      "Bank Account details",
+      "Aadhaar Card"
+    ],
+    "howToApply": [
+      "Visit National Scholarship Portal: scholarships.gov.in",
+      "Register with student details",
+      "Select appropriate scholarship",
+      "Upload all documents",
+      "Submit application",
+      "Verification by institute"
+    ],
+    "contact": "0120-6619540 (NSP Helpline)"
+  },
+  {
+    "id": 7,
+    "title": "Ayushman Bharat (PMJAY)",
+    "icon": "🏥",
+    "category": "healthcare",
+    "description": "Health insurance coverage of ₹5 Lakhs per family per year for hospitalization at empanelled hospitals.",
+    "amount": "₹5 Lakhs health cover per family/year",
+    "eligibility": [
+      "Economically weaker families",
+      "Name in SECC 2011 list",
+      "No premium payment required",
+      "Covers pre and post hospitalization"
+    ],
+    "documents": [
+      "Aadhaar Card (for all family members)",
+      "Ration Card",
+      "Mobile number",
+      "Address proof",
+      "Family details"
+    ],
+    "howToApply": [
+      "Check eligibility at https://pmjay.gov.in",
+      "Visit nearest Common Service Center (CSC)",
+      "Provide family details and Aadhaar",
+      "Ayushman card generated instantly",
+      "Use at any empanelled hospital"
+    ],
+    "contact": "14555 (PMJAY Helpline)"
+  },
+  {
+    "id": 8,
+    "title": "PM Ujjwala Yojana",
+    "icon": "🔥",
+    "category": "energy",
+    "description": "Free LPG connection to women from Below Poverty Line households for clean cooking fuel.",
+    "amount": "Free LPG connection + ₹1,600 assistance",
+    "eligibility": [
+      "Woman aged 18 years or above",
+      "BPL household",
+      "No LPG connection in family",
+      "Name in SECC 2011 list"
+    ],
+    "documents": [
+      "BPL Card/SECC name",
+      "Aadhaar Card",
+      "Bank Account details",
+      "Address Proof",
+      "Passport size photo"
+    ],
+    "howToApply": [
+      "Visit nearest LPG distributor",
+      "Get Ujjwala application form",
+      "Fill with family details",
+      "Submit with BPL card copy",
+      "Connection within 15 days"
+    ],
+    "contact": "1906 (Ujjwala Helpline)"
+  },
+  {
+    "id": 9,
+    "title": "Sukanya Samriddhi Yojana",
+    "icon": "👧",
+    "category": "savings",
+    "description": "Small deposit scheme for girl child's education and marriage with attractive interest rate and tax benefits.",
+    "amount": "Min ₹250, Max ₹1.5 Lakh/year | 8%+ interest",
+    "eligibility": [
+      "Girl child below 10 years of age",
+      "Parents or legal guardians can open",
+      "Maximum 2 accounts per family",
+      "Indian resident"
+    ],
+    "documents": [
+      "Girl child's birth certificate",
+      "Parent's Aadhaar Card",
+      "Parent's PAN Card",
+      "Address proof",
+      "Passport size photos"
+    ],
+    "howToApply": [
+      "Visit nearest Post Office or Bank",
+      "Fill account opening form",
+      "Submit birth certificate and ID proofs",
+      "Deposit minimum ₹250",
+      "Account active immediately",
+      "Deposit annually for 14 years"
+    ],
+    "contact": "Bank/Post Office branch"
+  },
+  {
+    "id": 10,
+    "title": "Disability Pension Scheme",
+    "icon": "♿",
+    "category": "pension",
+    "description": "Monthly pension to persons with disabilities (40% and above) for their sustenance and dignity.",
+    "amount": "₹500-₹1,500 per month (varies by state)",
+    "eligibility": [
+      "40% or more disability",
+      "Below Poverty Line",
+      "Age 18-59 years",
+      "Not employed in government sector"
+    ],
+    "documents": [
+      "Disability Certificate (from CMO)",
+      "Age proof",
+      "Income Certificate",
+      "BPL Card",
+      "Bank Account details",
+      "Aadhaar Card"
+    ],
+    "howToApply": [
+      "Get disability certificate from CMO",
+      "Visit Gram Panchayat/Block office",
+      "Fill pension application form",
+      "Submit with disability certificate",
+      "Verification and approval",
+      "Pension starts within 2 months"
+    ],
+    "contact": "District Social Welfare Office"
+  }
+]

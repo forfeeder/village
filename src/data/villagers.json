@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Lokendra Singh",
+    "name_hi": "लोकेंद्र सिंह",
+    "profession": "UP Police Officer",
+    "profession_hi": "यूपी पुलिस अधिकारी",
+    "category": "government",
+    "qualification": "BSC, Moradabad",
+    "qualification_hi": "बी.एससी, मुरादाबाद",
+    "experience": "1 years",
+    "experience_hi": "1 वर्ष",
+    "achievements": [
+      "District Magistrate, Lucknow",
+      "Led rural development initiatives in 5 districts",
+      "Awarded Best Administrator 2022"
+    ],
+    "achievements_hi": [
+      "जिला मजिस्ट्रेट, लखनऊ",
+      "5 जिलों में ग्रामीण विकास पहल का नेतृत्व किया",
+      "सर्वश्रेष्ठ प्रशासक 2022 से सम्मानित"
+    ],
+    "photo": "https://via.placeholder.com/300x300/2E7D32/FFFFFF?text=RK",
+    "contact": "rajesh.kumar@gov.in"
+  },
+  {
+    "id": 2,
+    "name": "Aman Singh",
+    "name_hi": "अमन सिंह",
+    "profession": "Software Engineer",
+    "profession_hi": "सॉफ्टवेयर इंजीनियर",
+    "category": "private",
+    "qualification": "B.Tech Computer Science, GLA University Mathura",
+    "qualification_hi": "बी.टेक कंप्यूटर विज्ञान, जीएलए विश्वविद्यालय मथुरा",
+    "experience": "6 years",
+    "experience_hi": "6 वर्ष",
+    "achievements": [
+      "Senior Engineer at Google, Bangalore",
+      "Published 3 research papers on AI/ML",
+      "Mentor for rural youth in coding"
+    ],
+    "achievements_hi": [
+      "सीनियर इंजीनियर, गूगल, बेंगलुरु",
+      "एआई/एमएल पर 3 शोध पत्र प्रकाशित",
+      "कोडिंग में ग्रामीण युवाओं के लिए मार्गदर्शक"
+    ],
+    "photo": "https://via.placeholder.com/300x300/1565C0/FFFFFF?text=PS",
+    "contact": "priya.sharma@gmail.com"
+  }
+]
