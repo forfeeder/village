@@ -1,12 +1,31 @@
 import React, { useState } from 'react';
-import { Card, Badge } from 'react-bootstrap';
+import { Card, Badge, Modal } from 'react-bootstrap';
 import { useLanguage } from '../../context/LanguageContext';
 import './BeforeAfter.css';
+
+// Resolve image paths: allow absolute URLs or local images stored in src/images/before-after
+const resolveImage = (path) => {
+  if (!path) return '';
+  // If it's already an external URL, return as-is
+  if (/^https?:\/\//i.test(path)) return path;
+
+  // Try to require the image from the before-after images folder
+  try {
+    // webpack/CRA will return the resolved URL string
+    return require(`../../images/before-after/${path}`);
+  } catch (err) {
+    console.warn('Could not resolve local image', path, err);
+    return path; // fallback to the original string
+  }
+};
 
 const BeforeAfter = ({ transformation }) => {
   const { t, language } = useLanguage();
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+  const [modalSrc, setModalSrc] = useState('');
+  const [modalAlt, setModalAlt] = useState('');
 
   const handleMouseDown = () => {
     setIsDragging(true);
@@ -42,6 +61,14 @@ const BeforeAfter = ({ transformation }) => {
     }
   };
 
+  const openImage = (src, alt) => {
+    setModalSrc(src);
+    setModalAlt(alt);
+    setShowModal(true);
+  };
+
+  const closeModal = () => setShowModal(false);
+
   return (
     <Card className="before-after-card shadow-sm">
       <div 
@@ -55,9 +82,10 @@ const BeforeAfter = ({ transformation }) => {
         {/* After Image (Background) */}
         <div className="image-container">
           <img 
-            src={transformation.after} 
+            src={resolveImage(transformation.after)} 
             alt={`${transformation.title} - After`}
-            className="comparison-image"
+            className="comparison-image clickable-image"
+            onClick={() => openImage(resolveImage(transformation.after), `${transformation.title} - After`)}
           />
           <Badge bg="success" className="image-label image-label-right">
             {t('beforeAfter.after')}
@@ -70,9 +98,10 @@ const BeforeAfter = ({ transformation }) => {
           style={{ clipPath: `inset(0 ${100 - sliderPosition}% 0 0)` }}
         >
           <img 
-            src={transformation.before} 
+            src={resolveImage(transformation.before)} 
             alt={`${transformation.title} - Before`}
-            className="comparison-image"
+            className="comparison-image clickable-image"
+            onClick={() => openImage(resolveImage(transformation.before), `${transformation.title} - Before`)}
           />
           <Badge bg="danger" className="image-label image-label-left">
             {t('beforeAfter.before')}
@@ -128,6 +157,15 @@ const BeforeAfter = ({ transformation }) => {
           </div>
         )}
       </Card.Body>
+      {/* Image Modal */}
+      <Modal show={showModal} onHide={closeModal} centered size="lg">
+        <Modal.Header closeButton>
+          <Modal.Title>{modalAlt}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body className="text-center py-0">
+          <img src={modalSrc} alt={modalAlt} style={{ width: '100%', height: 'auto', maxHeight: '70vh', objectFit: 'contain' }} />
+        </Modal.Body>
+      </Modal>
     </Card>
   );
 };
